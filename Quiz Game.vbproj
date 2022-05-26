@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
     <RootNamespace>Quiz_Game</RootNamespace>
-    <StartupObject>Sub Main</StartupObject>
+    <StartupObject>Quiz_Game.Question_1</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
   </PropertyGroup>
