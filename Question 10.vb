@@ -1,5 +1,4 @@
-﻿Public Class Question_1
-
+﻿Public Class Question_10
     Private correct_answer_selected As Boolean
 
     Private Sub Option1_CheckedChanged(sender As Object, e As EventArgs) Handles Option1.CheckedChanged
@@ -7,7 +6,7 @@
     End Sub
 
     Private Sub Option2_CheckedChanged(sender As Object, e As EventArgs) Handles Option2.CheckedChanged
-        correct_answer_selected = True
+        correct_answer_selected = False
     End Sub
 
     Private Sub Option3_CheckedChanged(sender As Object, e As EventArgs) Handles Option3.CheckedChanged
@@ -15,7 +14,7 @@
     End Sub
 
     Private Sub Option4_CheckedChanged(sender As Object, e As EventArgs) Handles Option4.CheckedChanged
-        correct_answer_selected = False
+        correct_answer_selected = True
     End Sub
 
     Private Sub NextButton_Click(sender As Object, e As EventArgs) Handles NextButton.Click
@@ -23,8 +22,8 @@
             MessageBox.Show("That's wrong! You loose!!!!!")
             Application.Exit()
         Else
-            Hide()
-            Question_2.Show()
+            MessageBox.Show("You successfully completed the whole quiz! Congratulations CHAMP!")
+            Application.Exit()
         End If
     End Sub
 End Class

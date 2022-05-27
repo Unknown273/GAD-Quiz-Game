@@ -1,5 +1,4 @@
-﻿Public Class Question_1
-
+﻿Public Class Question_2
     Private correct_answer_selected As Boolean
 
     Private Sub Option1_CheckedChanged(sender As Object, e As EventArgs) Handles Option1.CheckedChanged
@@ -24,7 +23,7 @@
             Application.Exit()
         Else
             Hide()
-            Question_2.Show()
+            Question_3.Show()
         End If
     End Sub
 End Class

@@ -33,7 +33,7 @@ Partial Class Question_1
         'Question
         '
         Me.Question.AutoSize = True
-        Me.Question.Location = New System.Drawing.Point(318, 211)
+        Me.Question.Location = New System.Drawing.Point(375, 216)
         Me.Question.Name = "Question"
         Me.Question.Size = New System.Drawing.Size(541, 32)
         Me.Question.TabIndex = 0
@@ -42,60 +42,62 @@ Partial Class Question_1
         'Option1
         '
         Me.Option1.AutoSize = True
-        Me.Option1.Location = New System.Drawing.Point(161, 323)
+        Me.Option1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Option1.Location = New System.Drawing.Point(303, 324)
         Me.Option1.Name = "Option1"
-        Me.Option1.Size = New System.Drawing.Size(190, 36)
+        Me.Option1.Size = New System.Drawing.Size(91, 36)
         Me.Option1.TabIndex = 1
-        Me.Option1.TabStop = True
-        Me.Option1.Text = "RadioButton1"
+        Me.Option1.Text = "void"
         Me.Option1.UseVisualStyleBackColor = True
         '
         'Option2
         '
         Me.Option2.AutoSize = True
-        Me.Option2.Location = New System.Drawing.Point(408, 323)
+        Me.Option2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Option2.Location = New System.Drawing.Point(509, 324)
         Me.Option2.Name = "Option2"
-        Me.Option2.Size = New System.Drawing.Size(190, 36)
+        Me.Option2.Size = New System.Drawing.Size(73, 36)
         Me.Option2.TabIndex = 2
-        Me.Option2.TabStop = True
-        Me.Option2.Text = "RadioButton2"
+        Me.Option2.Text = "int"
         Me.Option2.UseVisualStyleBackColor = True
         '
         'Option3
         '
         Me.Option3.AutoSize = True
-        Me.Option3.Location = New System.Drawing.Point(673, 323)
+        Me.Option3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Option3.Location = New System.Drawing.Point(704, 324)
         Me.Option3.Name = "Option3"
-        Me.Option3.Size = New System.Drawing.Size(190, 36)
+        Me.Option3.Size = New System.Drawing.Size(90, 36)
         Me.Option3.TabIndex = 3
-        Me.Option3.TabStop = True
-        Me.Option3.Text = "RadioButton3"
+        Me.Option3.Text = "char"
         Me.Option3.UseVisualStyleBackColor = True
         '
         'Option4
         '
         Me.Option4.AutoSize = True
-        Me.Option4.Location = New System.Drawing.Point(912, 323)
+        Me.Option4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Option4.Location = New System.Drawing.Point(897, 324)
         Me.Option4.Name = "Option4"
-        Me.Option4.Size = New System.Drawing.Size(132, 36)
+        Me.Option4.Size = New System.Drawing.Size(93, 36)
         Me.Option4.TabIndex = 4
-        Me.Option4.TabStop = True
-        Me.Option4.Text = "Option4"
+        Me.Option4.Text = "float"
         Me.Option4.UseVisualStyleBackColor = True
         '
         'NextButton
         '
-        Me.NextButton.Location = New System.Drawing.Point(1133, 460)
+        Me.NextButton.BackColor = System.Drawing.Color.Black
+        Me.NextButton.Location = New System.Drawing.Point(1104, 458)
         Me.NextButton.Name = "NextButton"
         Me.NextButton.Size = New System.Drawing.Size(150, 46)
         Me.NextButton.TabIndex = 5
         Me.NextButton.Text = "Next"
-        Me.NextButton.UseVisualStyleBackColor = True
+        Me.NextButton.UseVisualStyleBackColor = False
         '
         'Question_1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 32.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(26, Byte), Integer), CType(CType(26, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1362, 639)
         Me.Controls.Add(Me.NextButton)
         Me.Controls.Add(Me.Option4)
@@ -103,7 +105,9 @@ Partial Class Question_1
         Me.Controls.Add(Me.Option2)
         Me.Controls.Add(Me.Option1)
         Me.Controls.Add(Me.Question)
+        Me.ForeColor = System.Drawing.Color.White
         Me.Name = "Question_1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Question_1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
