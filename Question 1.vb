@@ -1,7 +1,5 @@
 ﻿Public Class Question_1
 
-    ' asasfasfsdffsdf
-
     Private correct_answer_selected As Boolean
 
     Private Sub Option1_CheckedChanged(sender As Object, e As EventArgs) Handles Option1.CheckedChanged
